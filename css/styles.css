@@ -1,35 +1,64 @@
+.link {
+    text-decoration: none;
+  }
+  .list {
+    list-style-type: none;
+  }
+  .button {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+  }
+  .container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .visualli-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 body {
     font-family: "Roboto", sans-serif;
     color:  #434455;
 	background-color: #FFFFFF;
 }
-h1,h2,h3 {
-    margin: 0 auto;
-}
-p {
-    margin: 0 auto;
-}
-ul ,li{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-}
-img {
-    display: block;
-}
 header.container {
     display: flex;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-.container{   
-    border: 1px solid yellow;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
      
 }
+
 .logo {
     border-bottom: 1px solid #e7e9fc;
     justify-content: center; 
@@ -185,19 +214,8 @@ a:focus {
 .features-list li {
     text-decoration: none;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  .features_list {
+
+.features_list {
     display: flex;
     gap: 24px;
     margin-left: 156px;
@@ -205,7 +223,7 @@ a:focus {
     
 }
   
-  .features_item  {
+.features_item  {
     flex-basis: calc((100% - 3 * 24px) / 4);
     display: block;
  
@@ -220,6 +238,7 @@ a:focus {
     margin-bottom: 8px;
     text-align: left;
    }
+
 .section_description {
     color: #434455;
     font-size: 16px;
@@ -228,17 +247,19 @@ a:focus {
     letter-spacing: 0.02em;
     width: 264px;
     
-   
-}
+  }
+
 .team {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .team-name {
     background-color: #F4F4FD;
     margin-bottom: 72px;
     text-align: center;
 }
+
 .group {
     color: #2E2F42;
     font-size: 36px;
@@ -249,12 +270,14 @@ a:focus {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+
 .team-member {
     display: flex;
     gap: 24px;
     margin-left: 156px;
     margin-right: 156px;
 }
+
 .team_item {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4));
@@ -266,6 +289,7 @@ a:focus {
     margin: 10px;
     
 }
+
 .team-member_info {
     padding: 32px 0 ;
     padding-top: 32px; 
@@ -352,7 +376,7 @@ a:focus {
 
 }
 .logostudiofooter {
-       margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 .footer_description{
   color:#F4F4FD;
