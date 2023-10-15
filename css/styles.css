@@ -27,7 +27,7 @@ header.container {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 1158px;
+    width: 1158px;
      
 }
 .logo {
@@ -40,6 +40,11 @@ header.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
 }
 .navigation {
     display: flex;
@@ -91,10 +96,10 @@ header.container {
     min-width: 120px;
 }
 .address {
-  font-style: normal;   
-   padding: 0;
-   gap: 40px;
-   align-items: flex-end;
+    font-style: normal;   
+    padding: 0;
+    gap: 40px;
+    align-items: flex-end;
      
 } 
 .link_navigation {
@@ -122,7 +127,6 @@ a:focus {
 }
 .baner {
     letter-spacing: 0.02em;
-  
     display: flex;
     text-align: center; 
     max-width: 1158px;
@@ -202,7 +206,7 @@ a:focus {
 }
   
   .features_item  {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     display: block;
  
   }
@@ -253,13 +257,19 @@ a:focus {
 }
 .team_item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px; 
+    flex-basis: calc((100% - 72px) / 4));
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px ; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px; 
     margin: 10px;
     
 }
 .team-member_info {
     padding: 32px 0 ;
+    padding-top: 32px; 
+    padding-bottom: 32px;
   
 }
 .section-heading {
